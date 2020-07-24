@@ -56,8 +56,12 @@ export default function App() {
   };
 
   return (
-    <div className="container">
-      <h1>Rect Juros Compostos</h1>
+    <div
+      className="container"
+      style={{ backgroundColor: 'white', padding: '10px' }}
+    >
+      <h1 style={{ textAlign: 'center' }}>Rect - Juros Compostos</h1>
+      <hr />
       <Form
         data={{ initialValue, monthlyInterest, monthlyPeriod }}
         onChangeData={handleFormChanges}
